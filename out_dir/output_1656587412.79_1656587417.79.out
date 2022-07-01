@@ -1,0 +1,24 @@
+[
+  {
+    "syscall_ret_val": "50", 
+    "syscall_args": "fd: 1", 
+    "syscall_name": "write", 
+    "proc_name": "simple_loop"
+  }, 
+  {
+    "syscall_name": "clock_nanosleep", 
+    "proc_name": "simple_loop"
+  }, 
+  {
+    "syscall_ret_val": "6", 
+    "syscall_args": "filename: /etc/passwd", 
+    "syscall_name": "openat", 
+    "proc_name": "simple_loop"
+  }, 
+  {
+    "syscall_ret_val": "3906", 
+    "syscall_args": "", 
+    "syscall_name": "getpid", 
+    "proc_name": "simple_loop"
+  }
+]

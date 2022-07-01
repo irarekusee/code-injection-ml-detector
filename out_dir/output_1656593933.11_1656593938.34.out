@@ -1,0 +1,126 @@
+[
+  {
+    "syscall_ret_val": "33", 
+    "syscall_args": "fd: 1", 
+    "syscall_name": "write", 
+    "proc_name": "simple_loop_dl"
+  }, 
+  {
+    "syscall_name": "clock_nanosleep", 
+    "proc_name": "simple_loop_dl"
+  }, 
+  {
+    "syscall_ret_val": "6", 
+    "syscall_args": "filename: ./execve_sh_dl.so", 
+    "syscall_name": "openat", 
+    "proc_name": "simple_loop_dl"
+  }, 
+  {
+    "syscall_ret_val": "0x7f04493dc000", 
+    "syscall_args": "len: 0x4038, prot: 0x1, flags: 0x802", 
+    "syscall_name": "mmap", 
+    "proc_name": "simple_loop_dl"
+  }, 
+  {
+    "syscall_ret_val": "0x7f04493dd000", 
+    "syscall_args": "len: 0x1000, prot: 0x5, flags: 0x812", 
+    "syscall_name": "mmap", 
+    "proc_name": "simple_loop_dl"
+  }, 
+  {
+    "syscall_ret_val": "0x7f04493de000", 
+    "syscall_args": "len: 0x1000, prot: 0x1, flags: 0x812", 
+    "syscall_name": "mmap", 
+    "proc_name": "simple_loop_dl"
+  }, 
+  {
+    "syscall_ret_val": "0x7f04493df000", 
+    "syscall_args": "len: 0x2000, prot: 0x3, flags: 0x812", 
+    "syscall_name": "mmap", 
+    "proc_name": "simple_loop_dl"
+  }, 
+  {
+    "syscall_ret_val": "26", 
+    "syscall_args": "fd: 1", 
+    "syscall_name": "write", 
+    "proc_name": "simple_loop_dl"
+  }, 
+  {
+    "syscall_ret_val": "0", 
+    "syscall_args": "arg: /bin/sh", 
+    "syscall_name": "execve", 
+    "proc_name": "simple_loop_dl"
+  }, 
+  {
+    "syscall_ret_val": "6", 
+    "syscall_args": "filename: /etc/ld.so.cache", 
+    "syscall_name": "openat", 
+    "proc_name": "sh"
+  }, 
+  {
+    "syscall_ret_val": "0x7fa5de5d7000", 
+    "syscall_args": "len: 0x17c15, prot: 0x1, flags: 0x2", 
+    "syscall_name": "mmap", 
+    "proc_name": "sh"
+  }, 
+  {
+    "syscall_ret_val": "6", 
+    "syscall_args": "filename: /lib/x86_64-linux-gnu/libc.so.6", 
+    "syscall_name": "openat", 
+    "proc_name": "sh"
+  }, 
+  {
+    "syscall_ret_val": "0x7fa5de5d5000", 
+    "syscall_args": "len: 0x2000, prot: 0x3, flags: 0x22", 
+    "syscall_name": "mmap", 
+    "proc_name": "sh"
+  }, 
+  {
+    "syscall_ret_val": "0x7fa5de3e3000", 
+    "syscall_args": "len: 0x1f1660, prot: 0x1, flags: 0x802", 
+    "syscall_name": "mmap", 
+    "proc_name": "sh"
+  }, 
+  {
+    "syscall_ret_val": "0x7fa5de405000", 
+    "syscall_args": "len: 0x178000, prot: 0x5, flags: 0x812", 
+    "syscall_name": "mmap", 
+    "proc_name": "sh"
+  }, 
+  {
+    "syscall_ret_val": "0x7fa5de57d000", 
+    "syscall_args": "len: 0x4e000, prot: 0x1, flags: 0x812", 
+    "syscall_name": "mmap", 
+    "proc_name": "sh"
+  }, 
+  {
+    "syscall_ret_val": "0x7fa5de5cb000", 
+    "syscall_args": "len: 0x6000, prot: 0x3, flags: 0x812", 
+    "syscall_name": "mmap", 
+    "proc_name": "sh"
+  }, 
+  {
+    "syscall_ret_val": "0x7fa5de5d1000", 
+    "syscall_args": "len: 0x3660, prot: 0x3, flags: 0x32", 
+    "syscall_name": "mmap", 
+    "proc_name": "sh"
+  }, 
+  {
+    "syscall_ret_val": "7034", 
+    "syscall_args": "", 
+    "syscall_name": "getpid", 
+    "proc_name": "sh"
+  }, 
+  {
+    "syscall_ret_val": "6", 
+    "syscall_args": "filename: /dev/tty", 
+    "syscall_name": "openat", 
+    "proc_name": "sh"
+  }, 
+  {
+    "syscall_ret_val": "2", 
+    "syscall_args": "fd: 2", 
+    "syscall_name": "write", 
+    "proc_name": "sh"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "syscall_ret_val": "33", 
+    "syscall_args": "fd: 1", 
+    "syscall_name": "write", 
+    "proc_name": "simple_loop_dl"
+  }, 
+  {
+    "syscall_name": "clock_nanosleep", 
+    "proc_name": "simple_loop_dl"
+  }, 
+  {
+    "syscall_ret_val": "0x7f04493e2000", 
+    "syscall_args": "len: 0x1000, prot: 0x7, flags: 0x22", 
+    "syscall_name": "mmap", 
+    "proc_name": "simple_loop_dl"
+  }, 
+  {
+    "syscall_ret_val": "7034", 
+    "syscall_args": "", 
+    "syscall_name": "getpid", 
+    "proc_name": "simple_loop_dl"
+  }
+]

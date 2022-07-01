@@ -1,0 +1,2 @@
+write,mmap,getpid,execve,clock_nanosleep,openat,is_comm_changed,is_sh_in_args,is_passwd_in_openat_args,is_proc_in_openat_args,is_rwx_in_mmap_args
+1,1,1,0,1,0,0,0,0,0,1

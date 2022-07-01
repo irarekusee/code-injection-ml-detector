@@ -1,0 +1,25 @@
+iri@miracle:~/Documents/predict$ python3 clf_records.py -d out_dir/
+precision of SVM on training sample (1431 instances): [1. 1.]
+recall of SVM on training sample (1431 instances): [1. 1.]
+fscore of SVM on training sample (1431 instances): [1. 1.]
+accuracy of SVM on training sample (1431 instances): 1.0
+precision of SVM on testing sample (478 instances): [0.9894958 1.       ]
+recall of SVM on testing sample (478 instances): [1.         0.28571429]
+fscore of SVM on testing sample (478 instances): [0.99472017 0.44444444]
+accuracy of SVM on testing sample (478 instances): 0.9895397489539749
+precision of decision tree on training sample (1431 instances): [1. 1.]
+recall of decision tree on training sample (1431 instances): [1. 1.]
+fscore of decision tree on training sample (1431 instances): [1. 1.]
+accuracy of decision tree on training sample (1431 instances): 1.0
+precision of decision tree on testing sample (478 instances): [0.99367089 1.        ]
+recall of decision tree on testing sample (478 instances): [1.         0.57142857]
+fscore of decision tree on testing sample (478 instances): [0.9968254  0.72727273]
+accuracy of decision tree on testing sample (478 instances): 0.9937238493723849
+precision of logistic regression on training sample (1431 instances): [1. 1.]
+recall of logistic regression on training sample (1431 instances): [1. 1.]
+fscore of logistic regression on training sample (1431 instances): [1. 1.]
+accuracy of logistic regression on training sample (1431 instances): 1.0
+precision of logistic regression on testing sample (478 instances): [0.99367089 1.        ]
+recall of logistic regression on testing sample (478 instances): [1.         0.57142857]
+fscore of logistic regression on testing sample (478 instances): [0.9968254  0.72727273]
+accuracy of logistic regression on testing sample (478 instances): 0.9937238493723849

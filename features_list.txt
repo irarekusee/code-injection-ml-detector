@@ -1,0 +1,13 @@
+A list of features for detecting anomalous processes using machine learning models:
+
+- Frequency characteristics describing the number of occurrences of system calls of a certain type within a given time window (type: real)
+
+- Binary flag indicating whether the name of the process with the given PID within which this system call was triggered has been changed (type: boolean)
+
+- The sign of the occurrence of the substring `/bin/sh` in one of the arguments of the execve system call (type: boolean)
+
+- The sign of the occurrence of the substring `/etc/passwd` in one of the arguments of the openat system call (type: boolean)
+
+- The sign of the occurrence of the substring `/proc` in one of the arguments of the open or openat system call (type: boolean)
+
+- The sign of the occurrence of the substring `prot: 0x7` in one of the arguments of the mmap system call (type: boolean)

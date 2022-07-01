@@ -1,0 +1,47 @@
+tracepoint:syscalls:sys_enter_mmap /pid == 4756/ {
+        printf("%s -> mmap(len: 0x%lx, prot: 0x%lx, flags: 0x%lx)", comm, args->len, args->prot, args->flags);
+}
+
+tracepoint:syscalls:sys_exit_mmap /pid == 4756/ {
+        printf("; return value: 0x%lx\n", args->ret);
+}
+
+tracepoint:syscalls:sys_enter_openat /pid == 4756/ {
+	printf("%s -> openat(filename: %s)", comm, str(args->filename));
+}
+
+tracepoint:syscalls:sys_exit_openat /pid == 4756/ {
+	printf("; return value: %d\n", args->ret);
+}
+
+tracepoint:syscalls:sys_enter_clock_nanosleep /pid == 4756/ {
+        printf("%s -> clock_nanosleep()\n", comm);
+}
+
+tracepoint:syscalls:sys_enter_getpid /pid == 4756/ {
+        printf("%s -> getpid()", comm);
+}
+
+tracepoint:syscalls:sys_exit_getpid /pid == 4756/ {
+	printf("; return value: %d\n", args->ret);
+}
+
+tracepoint:syscalls:sys_enter_write /pid == 4756/ {
+        printf("%s -> write(fd: %d)", comm, args->fd);
+}
+
+tracepoint:syscalls:sys_exit_write /pid == 4756/ {
+	printf("; return value: %d\n", args->ret);
+}
+
+tracepoint:syscalls:sys_enter_execve /pid == 4756/ {
+	printf("%s -> execve(arg: %s)", comm, str(args->filename));
+}
+
+tracepoint:syscalls:sys_exit_execve /pid == 4756/ {
+	printf("; return value: %d\n", args->ret);
+}
+
+END {
+	printf("Exiting bpftrace program...\n");
+}
