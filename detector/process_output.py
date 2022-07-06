@@ -46,7 +46,7 @@ while not is_break:
         st = ct
     elif ct - st > time_window_size:
         if len(psc) > 0:
-            save_to_file(js.dumps(psc, indent=2), "bpftrace_output_{}_{}.out".format(st, ct))
+            save_to_file(js.dumps(psc, indent=2), "output_{}_{}.out".format(st, ct))
             psc = []
         st = ct
     
